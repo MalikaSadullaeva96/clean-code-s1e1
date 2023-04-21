@@ -123,7 +123,7 @@ ul {
   vertical-align: middle;
 }
 
-.section__list > input[type="checkbox"] {
+.section__list > .section__input_checkbox {
   margin: 0 10px;
 }
 
@@ -138,13 +138,13 @@ ul {
   width: 226px;
 }
 
-.delete img {
+.delete .section__btn-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.delete .section__btn-img:hover {
   transform: rotateZ(0);
 }
 
