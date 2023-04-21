@@ -16,10 +16,9 @@
     </header>
     <main class="main">
       <section id="section">
-        <h3 for="new-task">Add Item</h3>
+        <h3 class="section__title ">Add Item</h3>
         <div class="task-row-wrapper">
-          <input id="new-task"
-                 class="task" 
+          <input class="section__input task" 
                  type="text">
           <button>Add</button>
         </div>
@@ -27,22 +26,22 @@
       <section class="section">
         <h3>Todo</h3>
         <ul id="incomplete-tasks">
-          <li>
+          <li class="section__list">
             <input type="checkbox">
             <label class="task">Pay Bills</label>
             <input type="text" 
-                   class="task">
+                   class="section__input task">
             <button class="edit">Edit</button>
             <button class="delete">
               <img src="./remove.svg">
             </button>
           </li>
-          <li class="edit-mode">
+          <li class="section__list edit-mode">
             <input type="checkbox">
             <label class="task">Go Shopping</label>
             <input type="text" 
                    value="Go Shopping" 
-                   class="task">
+                   class="section__input task">
             <button class="edit">Save</button>
             <button class="delete">
               <img src="./remove.svg">
@@ -53,11 +52,11 @@
       <section>
         <h3>Completed</h3>
         <ul id="completed-tasks">
-          <li>
+          <li class="section__list">
             <input type="checkbox" checked>
             <label class="task">See the Doctor</label>
             <input type="text" 
-                   class="task">
+                   class="section__input task">
             <button class="edit">Edit</button>
             <button class="delete">
               <img src="./remove.svg">
